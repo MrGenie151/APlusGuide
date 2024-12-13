@@ -6,4 +6,4 @@ A navigation list for avaliable pages
 
 - Core 1
     - Domain 3: Hardware
-        - [3.2 Installing RAM](/core-one/domain-3/3-2.html)
+        - [3.2 Installing RAM](./core-one/domain-3/3-2.html)
