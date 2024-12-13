@@ -38,4 +38,5 @@ def build(build_path="./build"):
         shutil.copyfile(thing[0],build_path + "/" + thing[1] + "/" + thing[2])
 
 if __name__ == "__main__":
+    build()
     build("./docs")
