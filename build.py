@@ -34,7 +34,8 @@ def build(build_path="./build"):
             f.write(template.replace("[[content]]",markdown.markdown(file_markdown)))
 
     for thing in files_to_copy:
+        os.makedirs(os.path.dirname(file_new_path), exist_ok=True)
         shutil.copyfile(thing[0],build_path + "/" + thing[1] + "/" + thing[2])
 
 if __name__ == "__main__":
-    build()
+    build("./docs")
